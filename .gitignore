@@ -1,0 +1,16 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore virtual environment
+venv/
+.env
+
+# Ignore logs and temporary files
+*.log
+*.pyc
+__pycache__/
+
+# Ignore large datasets
+data/*.csv
+data/*.json
